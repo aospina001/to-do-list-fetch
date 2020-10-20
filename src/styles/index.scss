@@ -1,13 +1,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-* {
-    border: red solid 1px;
-}
+// * {
+//     border: red solid 1px;
+// }
 .flex {
     display: flex;
 }
 body {
-    background-color: rgb(252, 252, 233);
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 .container {
     background-color: white;
@@ -15,39 +16,71 @@ body {
     padding: 0px;
     width: 300px;
     margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.head {
+    justify-content: center;
 }
 h1 {
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.body {
+    
+    justify-content: center;
 }
 input {
-    border: 1px solid lightgrey;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-bottom: 1px solid lightgrey;
+    margin: 0px;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+input:focus {
+    outline: none;
 }
 ul {
     padding-left: 0px;
+    margin: 0px;
 }
 li {
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    height: 50px;
+    padding: 0px 10px 0px 10px;
 }
-.far {
-    justify-content: flex-end;
+p {
+    font-size: 15px;
+    color: lightgray;
+    align-items: center;
+    height: 25px;
+    margin-bottom: 0px;
+    padding: 0px 10px 0px 10px;
 }
-.footer [
-    justify-content: center;
-]
+.footer {
+    align-items: center;
+    flex-direction: column;
+    height: 20px;
+}
 .blank-bottom1 {
-    justify-content: center;
+    background-color: white;
     width: 296px;
     height: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .blank-bottom2 {
-    justify-content: center;
+    background-color: white;
     width: 294px;
     height: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .blank-bottom3 {
-    justify-content: center;
+    background-color: white;
     width: 292px;
     height: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
